@@ -4,6 +4,7 @@ public class App {
        Pizza pizza = new Pizza("1234", "Garlic", 10.00);
        pizza.takeOrder();
        pizza.specialOfTheDay("chickenPizza", "Bread", "$12.99");
+       System.out.println(pizza);
 
     }
 }
